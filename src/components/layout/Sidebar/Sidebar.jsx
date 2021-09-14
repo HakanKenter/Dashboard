@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Navbar'
+import '../Navbar/Navbar'
 import './Sidebar.scss'
 // import TopSideBar from './SidebarContent/TopSideBar/TopSideBar'
 // import BottomSideBar from './SidebarContent/BottomSideBar/BottomSideBar'
