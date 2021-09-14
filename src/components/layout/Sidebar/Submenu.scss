@@ -1,0 +1,24 @@
+@import '../../../assets/scss/styles.scss';
+
+.sidebarSubmenu{
+    // background: pink;
+
+    width: 100%;
+    padding-left: 20px;
+
+    //Cette propriété permet de ne pas faire 
+    //Le depassement parce que si tu met width:100%
+    //Et que tu met un padding ça depasse et cette
+    //Methode permet de la résoudre
+    box-sizing: border-box;
+
+    >h1{
+        color:$cyan;
+        margin-left: 12px;
+    }
+
+    >.buttonList{
+
+    }
+
+}

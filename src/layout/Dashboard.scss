@@ -1,0 +1,11 @@
+@import '../assets/scss/styles.scss';
+
+.dashboardLayout {
+
+    .content {
+        background: rgb(184, 184, 112);
+        margin-left: $sidebarMainWidth;
+        margin-top: $navbarMainHeight;
+    }
+
+}
