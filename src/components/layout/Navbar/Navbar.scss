@@ -1,0 +1,102 @@
+@import '../../../assets/scss/styles.scss';
+
+.navbarMain{
+    position: fixed; 
+    top: 0;
+    right: 0;
+    left: $sidebarMainWidth;
+    height: $navbarMainHeight;
+    background: #F8F9FF;
+    height: 90px;
+    border-bottom: 1px solid #DADADA;
+    display: flex;
+
+    >.left{
+        width: 600px;
+        display: flex;
+        
+        >svg{
+            position: relative;
+            left: -20px;
+            top: 24px;
+        }
+
+        >.account{
+            height: 38px;
+            margin-left: 39px;
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+            margin-bottom: 26px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+
+            >.account-info{
+                height: 38px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 0.5px;
+                margin-left: 16px;
+
+                >h4{
+                    color: #000000;
+                    margin-bottom: 4px;
+                }
+
+                >p{
+                }
+
+            }
+            
+            >svg{
+                margin-left: 22.29px;
+            }
+
+            >p{
+                width: 40px;
+                // border: 1px solid #DADADA;
+                background: #DADADA;
+                transform: rotate(90deg);
+                height: 2px;
+            }
+        }
+
+        >.search{
+            position: relative;
+            
+            >svg{
+                position: relative;
+                top: 35px;
+                color: #828282;
+                font-size: 19px;
+            }
+
+            label {
+                position: relative;
+            }
+              
+            label:before {
+                content: "";
+                position: absolute;
+                left: 4px;
+                top: 0;
+                bottom: 0;
+                border: none;
+                width: 18px;
+                background: url(/src/assets/img/inputSearch.svg) center / contain no-repeat;
+            }
+              
+            input {
+                
+            }
+
+            input[type="text"]{
+                padding: 10px 30px;
+                background-color : #f8f9ff; 
+                border: none;
+                margin-top: 25px;
+                font-size: 16px;
+            }
+        }
+    }
+}
