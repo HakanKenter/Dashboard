@@ -1,0 +1,55 @@
+@import '../../../assets/scss/styles.scss';
+
+.navbarProfil{
+    display: flex;
+    align-items: center;
+    // 16px en chacun des elements
+    gap: 16px;
+    cursor: pointer;
+
+
+    >.image{
+        min-width: 38px;
+        width: 38px;
+        height: 38px;
+        overflow: hidden;
+        border-radius: 9px;
+        >img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    >.infos{
+        >p{
+            margin-top: 6px;
+        }
+        >h1{
+
+        }
+    }
+
+    >svg{
+        width: 24px;
+    }
+}
+
+
+
+
+
+
+// .image-cercle{
+//     position: relative;
+//     margin-right: -19px;
+
+//     >img{
+//         position: relative;
+//         height: 38px;
+//         width: 38px;
+//         border-radius: 69px;
+//         border: 2px solid #FFFFFF;
+//     }
+
+// }
