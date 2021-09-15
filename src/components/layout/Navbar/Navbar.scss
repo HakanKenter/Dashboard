@@ -7,96 +7,187 @@
     left: $sidebarMainWidth;
     height: $navbarMainHeight;
     background: #F8F9FF;
-    height: 90px;
+    // background: #001eca;
+    // height: 90px;
     border-bottom: 1px solid #DADADA;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 60px;
 
     >.left{
-        width: 600px;
-        display: flex;
-        
-        >svg{
-            position: relative;
-            left: -20px;
-            top: 24px;
-        }
-
-        >.account{
-            height: 38px;
-            margin-left: 39px;
-            display: flex;
-            align-items: center;
-            margin-top: 25px;
-            margin-bottom: 26px;
-            padding-top: 0px;
-            padding-bottom: 0px;
-
-            >.account-info{
-                height: 38px;
-                margin-top: 0px;
-                margin-bottom: 0px;
-                padding-top: 0.5px;
-                margin-left: 16px;
-
-                >h4{
-                    color: #000000;
-                    margin-bottom: 4px;
-                }
-
-                >p{
-                }
-
-            }
-            
-            >svg{
-                margin-left: 22.29px;
-            }
-
-            >p{
-                width: 40px;
-                // border: 1px solid #DADADA;
-                background: #DADADA;
-                transform: rotate(90deg);
-                height: 2px;
-            }
-        }
-
-        >.search{
-            position: relative;
-            
-            >svg{
-                position: relative;
-                top: 35px;
-                color: #828282;
-                font-size: 19px;
-            }
-
-            label {
-                position: relative;
-            }
-              
-            label:before {
-                content: "";
-                position: absolute;
-                left: 4px;
-                top: 0;
-                bottom: 0;
-                border: none;
-                width: 18px;
-                background: url(/src/assets/img/inputSearch.svg) center / contain no-repeat;
-            }
-              
-            input {
-                
-            }
-
-            input[type="text"]{
-                padding: 10px 30px;
-                background-color : #f8f9ff; 
-                border: none;
-                margin-top: 25px;
-                font-size: 16px;
-            }
-        }
+       
     }
+
+    >.right{
+        
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // >.left{
+    //     width: 600px;
+    //     display: flex;
+        
+    //     >svg{
+    //         position: relative;
+    //         left: -20px;
+    //         top: 24px;
+    //         margin-right: 23px;
+    //     }
+
+    //     >.account{
+    //         height: 38px;
+    //         display: flex;
+    //         align-items: center;
+    //         margin-top: 25px;
+    //         margin-bottom: 26px;
+    //         padding-top: 0px;
+    //         padding-bottom: 0px;
+
+    //         >.account-info{
+    //             height: 38px;
+    //             margin-top: 0px;
+    //             margin-bottom: 0px;
+    //             padding-top: 0.5px;
+    //             margin-left: 16px;
+
+    //             >h4{
+    //                 margin-top: 2px;
+    //                 color: #000000;
+    //                 margin-bottom: 8px;
+    //             }
+
+    //             >p{
+    //                 color: #000000;
+    //                 font-size: 12px;
+    //             }
+
+    //         }
+            
+    //         >svg{
+    //             margin-left: 22.29px;
+    //             margin-right: 10px;
+    //         }
+
+    //         >p{
+    //             width: 40px;
+    //             // border: 1px solid #DADADA;
+    //             background: #DADADA;
+    //             transform: rotate(90deg);
+    //             height: 2px;
+    //         }
+    //     }
+
+    //     >.search{
+    //         position: relative;
+            
+    //         >svg{
+    //             position: relative;
+    //             top: 35px;
+    //             color: #828282;
+    //             font-size: 19px;
+    //         }
+
+    //         label {
+    //             position: relative;
+    //         }
+              
+    //         label:before {
+    //             content: "";
+    //             position: absolute;
+    //             left: 8px;
+    //             top: 0;
+    //             bottom: 0;
+    //             border: none;
+    //             width: 18px;
+    //             background: url(/src/assets/img/inputSearch.svg) center / contain no-repeat;
+    //         }
+
+    //         input[type="text"]{
+    //             padding: 10px 0px;
+    //             background-color : #f8f9ff; 
+    //             border: none;
+    //             margin-top: 25px;
+    //             margin-left: 45px;
+    //         }
+    //     }
+    // }
+
+    //     >.right{
+    //         padding-right: 39px;
+    //         position: relative;
+    //         right: 0px;
+    //         display: flex;
+
+    //         >.connected{
+    //             display: flex;
+    //             margin-right: 15px;
+
+    //             >.point{
+    //                 margin-top: 41px;
+    //                 width: 7px;
+    //                 height: 7px;
+    //                 border-radius: 50%;
+    //                 background-color: #30D988;
+    //                 margin-right: 6px;
+    //             }
+
+    //             >.online {
+    //                 color: #30D988;
+    //                 margin-top: 39px;
+    //             }
+    //         }
+
+    //         >.profil{
+    //             align-items: center;
+    //             margin-right: 10px;
+    //             display: inline-flex;
+    //             flex-direction: row;
+    //             position: relative;
+
+    //             .test{
+    //                 display: none;
+    //             }
+
+    //         }
+
+    //         >p{
+    //             width: 42px;
+    //             background: #DADADA;
+    //             transform: rotate(90deg);
+    //             height: 2px;
+    //             position: relative;
+    //             top: 43px;
+    //             margin-left: 28px;
+    //         }
+
+    //         >svg{
+    //             margin-top: 20px;
+    //         }
+        // }
