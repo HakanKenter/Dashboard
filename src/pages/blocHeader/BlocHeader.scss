@@ -1,0 +1,33 @@
+@import '../../assets/scss/styles.scss';
+
+.blocHeader{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DADADA;
+
+    >.left{
+        margin: 19px 85px 18px 20px;
+        display: flex;
+        align-items: center;
+
+        >h1{
+            color: $dark;
+        }
+    }
+
+    >.right{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+        >p{
+            color: #017EFA;
+        }
+        svg{
+            margin-right: 4px;
+            margin-left: 13px;
+        }
+    }
+}

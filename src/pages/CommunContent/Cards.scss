@@ -1,0 +1,94 @@
+@import '../../assets/scss/styles.scss';
+
+.blockContent{
+
+    >.top{
+        display: flex;
+
+        >.calendar{
+            width: 36px;
+            height: 42px;
+            border: solid 1px #DADADA;
+            border-radius: 4px;
+            padding-left: 1px;
+            padding-right: 2px;
+            padding-bottom: 3px;
+            margin-left: 20px;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+           >.month{
+                color: #000000;
+                // margin: 3px 10px 1px 11px;
+           }
+
+           >.day{
+                padding-top: 2px;
+                // padding-bottom: 2px;
+                // margin-bottom: 7px;
+           }
+        }
+
+        >.right-text{
+            margin-top: 20px;
+            margin-left: 8px;
+            h1{
+                color: $dark;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                margin-bottom: 6px;
+            }
+
+            h2{
+                color: $dark;
+            }
+        }
+    }
+
+    >.bottom{
+        display: flex;
+        align-items: center;
+
+        >.subBottom{
+            display: flex;
+            align-items: center;
+
+            >.progressSpace{
+                border-radius: 44px;
+                margin-top: 13px;
+                margin-bottom: 21px;
+                height: 4px;
+                width: 69px;
+                position: relative;
+                margin-left: 20px;
+                background: #e7e7e7;
+    
+                >.progressContent{
+                    border-radius: 44px;
+                    background: white;
+                    position: relative;
+                    // width: 72%;
+                    height: 4px;
+                    background: #51CBFF;
+                }
+            }
+            >.text{
+                color: $dark;
+                margin-bottom: 8px;
+                margin-left: 11px;
+            }
+        }
+
+    }
+
+    >.separator{
+        width: 342px;
+        height: 1px;
+        margin-left: 21px;
+        margin-right: 21px;
+        background: #DADADA;
+    }
+}

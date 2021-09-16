@@ -1,0 +1,31 @@
+@import '../../assets/scss/styles.scss';
+
+.totalVisitor{
+    display: flex;
+    // background: green;
+    align-items: flex-end;
+        >h1{
+            color: $dark;
+            margin-right: 6px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            // background: yellow;
+        }
+
+        >svg{
+            margin-bottom: 10px;
+            margin-right: 4px;
+        }
+
+        >.pourcentNumber{
+            margin-bottom: 9px;
+            margin-right: 3px;
+            color: $green;
+        }
+        
+        >.visitor{
+            margin-bottom: 9px;
+            color: $dark;
+            opacity: 0.58;
+        }
+}

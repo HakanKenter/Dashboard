@@ -1,0 +1,52 @@
+@import '../../assets/scss/styles.scss';
+
+.socialMedia{
+    margin-top: 14px;
+    // background: green;
+    // padding-bottom: 13px;
+
+
+    >.socialbBloc{
+        // background: rgb(22, 32, 22);
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        justify-content: space-between;
+
+        >.left{
+            display: flex;
+            >img{
+            }
+            
+            >.facebook{
+                // margin-top: 2px;
+                // color: $primary;
+                // margin-right: 93px;
+                text-transform: capitalize;
+            }
+        }
+
+        >.right{
+            display: flex;
+            justify-content: space-between;
+            width: 150px;
+            margin-right: 21px;
+            >.visitor{
+                margin-top: 2px;
+                color: $dark2;
+            }
+    
+            >.pourcents{
+                margin-top: 2px;
+                color: $dark2;
+            }
+        }
+    }
+    .separator{
+        width: 334px;
+        height: 1px;
+        margin-left: 29px;
+        margin-right: 21px;
+        background: #DADADA;
+    }
+}

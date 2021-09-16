@@ -198,7 +198,7 @@ export const Question = () => {
   );
 };
 
-export const Arrow = () => {
+export const Arrow2 = () => {
   return (
     <svg
       width="40"
@@ -303,6 +303,67 @@ export const Notification = () => {
           />
         </filter>
       </defs>
+    </svg>
+  );
+};
+
+export const RightArrow = () => {
+  return (
+    <svg
+      width="7"
+      height="11"
+      viewBox="0 0 7 11"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1.70715 10.2072L6.41381 5.49984L1.70715 0.792511L0.29248 2.20718L3.58581 5.49984L0.29248 8.79251L1.70715 10.2072Z"
+        fill="#017EFA"
+      />
+    </svg>
+  );
+};
+
+export const PourcentArrow = () => {
+  return (
+    <svg
+      width="7"
+      height="9"
+      viewBox="0 0 7 9"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M6.12524 4.12561L3.50024 1.50061L0.875243 4.12561"
+        stroke="#30D988"
+        strokeWidth="1.38462"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M3.50024 1.50046L3.50024 7.50046"
+        stroke="#30D988"
+        strokeWidth="1.38462"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
+
+export const Facebook = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M18.625 0.625H1.375C0.960156 0.625 0.625 0.960156 0.625 1.375V18.625C0.625 19.0398 0.960156 19.375 1.375 19.375H18.625C19.0398 19.375 19.375 19.0398 19.375 18.625V1.375C19.375 0.960156 19.0398 0.625 18.625 0.625ZM16.4594 6.09766H14.9617C13.7875 6.09766 13.5602 6.65547 13.5602 7.47578V9.28281H16.3633L15.9977 12.1117H13.5602V19.375H10.6375V12.1141H8.19297V9.28281H10.6375V7.19687C10.6375 4.77578 12.1164 3.45625 14.2773 3.45625C15.3133 3.45625 16.2016 3.53359 16.4617 3.56875V6.09766H16.4594Z"
+        fill="#017EFA"
+      />
     </svg>
   );
 };

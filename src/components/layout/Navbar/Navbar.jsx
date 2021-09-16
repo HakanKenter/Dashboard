@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.scss'
-import {Arrow, ViewArrow, InputSearch, Notification} from '../../common/Icons'
+import {Arrow2, ViewArrow, InputSearch, Notification} from '../../common/Icons'
 import AccountImage from '../../../assets/img/account-image.png'
 import Profil from './Profil'
 import ConnectedImage from '../../../assets/img/Navbar/orginateur-portable2.jpg'

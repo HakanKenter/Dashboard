@@ -1,10 +1,10 @@
 @import '../assets/scss/styles.scss';
 
 .dashboardLayout {
-    background: #F8F9FF;
+    background: #f8f9ff;
 
-    .content {
-        background: #F8F9FF;
+    >.content {
+        background: #f8f9ff;
         margin-left: $sidebarMainWidth;
         margin-top: $navbarMainHeight;
     }
